@@ -1,9 +1,6 @@
-# Blat_IGV_Visulization
-View your Blat PSL result with IGV visulization
-
 ## Purpose
 
-Visulization for the locally run Blat Result (PSL Format). 
+IGV Visulization for the locally run Blat Result (PSL Format). 
 
 ## Requirement
 
