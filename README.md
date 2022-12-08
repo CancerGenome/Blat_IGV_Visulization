@@ -1,6 +1,6 @@
 ## Purpose
 
-IGV Visulization for the locally run Blat Result (PSL Format). 
+Visulization for the locally run Blat Result (PSL Format) with IGV report.
 
 ## Requirement
 
