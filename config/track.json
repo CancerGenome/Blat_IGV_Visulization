@@ -1,0 +1,42 @@
+[
+	{
+    "name": "Blat Align",
+    "type": "alignment",
+	"format": "bam",
+    "url": "Blat.rep.bam",
+    "indexURL": "Blat.rep.bam.bai",
+    "visibilityWindow": 1000000,
+	"autoHeight": true,
+	"alignmentRowHeight": 25,
+    "order": 1,
+    "showMismatches": true,
+	"showCoverage": false,
+	"showSoftClips": true,
+	"showInsertionText": true,
+	"color": "rgb(255,192,203)"
+  },
+  {
+    "name": "GenCode V41",
+    "format": "refgene",
+    "type": "annotation",
+    "displayMode": "EXPANDED",
+    "url": "db/GeneCodeV41.ENST.gz",
+	"indexURL": "db/GeneCodeV41.ENST.gz.tbi",
+    "visibilityWindow": 1000000,
+	"autoHeight": true,
+    "height": 300,
+	"order": 2
+  },
+  {
+    "name": "MANE V1",
+    "format": "bed",
+    "type": "annotation",
+    "displayMode": "EXPANDED",
+	"autoHeight": true,
+    "height": 100,
+    "url": "db/MANE_V1.gz",
+    "indexURL": "db/MANE_V1.gz.tbi",
+    "visibilityWindow": 1000000,
+	"order": 3
+  }
+]
