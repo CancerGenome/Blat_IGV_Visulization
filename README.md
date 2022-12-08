@@ -16,9 +16,9 @@ Visulization for the locally run Blat Result (PSL Format).
 
 ## Procedures
 + Step 1: Download your own genome reference. Replace the REFERENCE in Run.sh with your reference location. 
-+ Step 2: Repalce the REFERENCE_INDEX in Run.sh with your reference index file (*.fai).
-+ Step 3: The annotation file used here is GenCode V41 and MANE V1.0 (db folder). All are download from UCSC genome browser (hg38). If you are using hg38 and do not want to update your annotation file. Please go to step 5. 
-+ Step 4 (optional): If you want to use your own annotation file, please download and update them in the config/track.json. Check this https://github.com/igvteam/igv.js/wiki/Tracks-2.0 if you are not familiar with IGV-report json file. Here, I switched the gene symbol and ENST in GenCode to display ENST ID first. 
++ Step 2: Repalce the REFERENCE_INDEX in Run.sh with your reference index file (*.fai). http://www.htslib.org/doc/samtools-index.html
++ Step 3: The annotation file used here is GenCode V41 and MANE V1.0 (db folder). All are downloaded from UCSC genome browser (hg38). Go to step 5 if you are using hg38 and do not want to update your annotation file. Here, I switched the gene symbol and ENST in GenCode to display ENST ID first. 
++ Step 4 (optional): If you want to use your own annotation file, please download and update them in the config/track.json. Check this https://github.com/igvteam/igv.js/wiki/Tracks-2.0 if you are not familiar with IGV-report json file. 
 + Step 5: conda activate igvreports
 + Step 6: ./Run.sh YOUR_OWN_FASTA
 + Step 7: Check your result IGV.html
