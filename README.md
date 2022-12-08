@@ -22,3 +22,7 @@ Visulization for the locally run Blat Result (PSL Format).
 + Step 5: conda activate igvreports
 + Step 6: ./Run.sh YOUR_OWN_FASTA
 + Step 7: Check your result IGV.html
+
+## Example
++ Input: test.fa, randomly choose two exons
++ Output: IGV.html
