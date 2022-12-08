@@ -29,3 +29,6 @@ Visulization for the locally run Blat Result (PSL Format) with IGV report.
 ## Example
 + Input: test.fa, randomly choose two exons
 + Output: IGV.html
+
+![image](https://user-images.githubusercontent.com/10337703/206536243-2efbb97f-8689-4836-9c8e-64de6ad2d0d8.png)
+
