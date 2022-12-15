@@ -2,9 +2,8 @@
 sub usage (){
     die qq(
 #===========================================================================
-#        USAGE:a.pl  -h
-#        DESCRIPTION: -h : Display this help
 #        Usage: psl2samV2.pl <in.psl> <in.fa>
+#        DESCRIPTION: -h : Display this help
 #
 #        Note: different with psl2sam.pl, this version will add fasta file into it.
 #        Author: Wang Yu
